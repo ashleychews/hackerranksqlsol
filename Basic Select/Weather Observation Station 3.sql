@@ -1,0 +1,1 @@
+SELECT DISTINCT city FROM STATION WHERE MOD(id,2)=0 order by city ASC; 
